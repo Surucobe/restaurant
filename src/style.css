@@ -1,0 +1,102 @@
+/* TODO: find monster hunter colors */
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #232946;
+  color: #b8c1ec;
+}
+
+.header {
+  padding: 5px;
+  position: sticky;
+  top: 15px;
+  button {
+    padding: 10px 15px;
+    border: 0;
+    /* border-radius: 8px; */
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #eebbc3;
+    color: #232946;
+  }
+}
+
+#content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  padding: 25px 5px;
+  box-sizing: inherit;
+}
+
+.menu-item-card {
+  display: flex;
+}
+
+.borders {
+  color: blueviolet;
+}
+
+img {
+  width: 900px;
+}
+
+.home-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  max-width: 900px;
+  .banner {
+    img {
+      border-top-right-radius: 12px;
+      border-bottom-left-radius: 12px;
+    }
+  }
+}
+
+.home-featured-content{
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  column-gap: 20px;
+  font-weight: 600;
+  div {
+    height: 100%;
+  }
+  /* FIX: add a way to work with different sizes and make it look good */
+  img {
+    width: 550px;
+    height: 350px;
+  }
+}
+
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.menu-item-card {
+  display: flex;
+  column-gap: 20px;
+  width: 900px;
+  justify-content: space-evenly;
+  img {
+    width: 350px;
+  }
+}
+
+.about-text-description{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 900px;
+  font-size: 25px;
+}
